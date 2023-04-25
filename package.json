@@ -8,7 +8,7 @@
     "version:patch": "npm version patch --no-git-tag-version",
     "patch": "npm run version:patch",
     "pub": "npm publish",
-    "commit": "git add package.json && git commit -m \"chore(release): $($npm_package_version)\" && git push origin master",
+    "commit": "git add package.json && git commit -m \"chore(release): $npm_package_version\" && git push origin master",
     "release": "npm run patch && npm run pub"
   },
   "repository": {
