@@ -1,6 +1,6 @@
 {
   "name": "reqbox-downstream",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Localhost downstream from ReqBox",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
     "patch": "npm run version:patch",
     "pub": "npm publish",
     "commit": "git add package.json && git commit -m \"chore(release): $npm_package_version\" && git push origin master",
-    "release": "npm run patch && npm run pub"
+    "release": "npm run patch && npm run commit && npm run pub"
   },
   "repository": {
     "url": "https://github.com/bayungrh/reqbox-downstream"
