@@ -68,6 +68,11 @@ function clear(isSoft) {
     process.exit(0);
   }
 
+  if (!server._isLocalhost(server.localPath)) {
+    console.error('\nInvalid localhost:', server.localPath);
+    process.exit(0);
+  }
+
   server.on('error', () => {
     process.exit(1);
   });
