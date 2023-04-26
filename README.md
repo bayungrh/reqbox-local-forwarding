@@ -1,7 +1,7 @@
 # reqbox-downstream
 Downstream client providing forwarding from ReqBox to your localhost for easy testing!
 
-[RequestBox](http://reqbox.xyz/ "RequestBox") is the fastest way to capture webhook API requests.
+[RequestBox](http://reqbox.dev/ "RequestBox") is the fastest way to capture webhook API requests.
 
 ## Installation
 ```bash
