@@ -15,7 +15,7 @@ const { argv } = yargs
   })
   .option('host', {
     alias: 'h',
-    describe: 'Downstream server providing forwarding to your localhost',
+    describe: 'Host to forward requests to',
     default: '127.0.0.1'
   })
   .option('protocol', {
