@@ -1,6 +1,6 @@
 {
-  "name": "@reqbox/local-forwarding",
-  "version": "0.0.2",
+  "name": "reqbox-local-forwarding",
+  "version": "0.0.3",
   "description": "Localhost forwarding from ReqBox",
   "main": "index.js",
   "scripts": {
